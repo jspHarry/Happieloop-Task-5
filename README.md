@@ -1,10 +1,10 @@
-🚀 **Real-Time Chat Application**
+**🚀 Real-Time Chat Application**
 
 💬 WebSocket-Based Multi-Room Chat App using Node.js, Express & WS
 
 A lightweight, real-time chat application that allows multiple users to join chat rooms, send messages instantly, and view chat history. Built with Node.js, Express, and WebSocket (ws) for fast, bidirectional communication.
 
-🌟 Features
+**🌟 Features**
 
 ✅ Real-time messaging using WebSockets
 ✅ Multiple chat rooms (general, random, tech)
@@ -15,7 +15,7 @@ A lightweight, real-time chat application that allows multiple users to join cha
 ✅ Lightweight and fast
 ✅ Easy to set up and run
 
-🛠 Tech Stack
+**🛠 Tech Stack**
 
 Node.js
 
@@ -27,7 +27,7 @@ UUID for unique message IDs
 
 File System (fs) for message persistence
 
-📂 Project Structure
+**📂 Project Structure**
 chat-app/
 │
 ├── server.js          # Main server file
@@ -35,7 +35,7 @@ chat-app/
 ├── package.json       # Dependencies & scripts
 └── public/            # Static frontend files (if added)
 
-⚡ Installation
+**⚡ Installation**
 
 1️⃣ Clone the repository
 
@@ -71,7 +71,7 @@ Stored in messages.json
 
 Limited to the last 200 messages per room
 
-🧠 WebSocket Events
+**🧠 WebSocket Events**
 Join Room
 {
   "type": "join",
@@ -102,7 +102,7 @@ Only the last 200 messages per room are stored
 
 Loaded automatically when the server restarts
 
-🔒 Default Chat Rooms
+**🔒 Default Chat Rooms**
 
 general
 
@@ -110,7 +110,7 @@ random
 
 tech
 
-🚀 Future Improvements
+**🚀 Future Improvements**
 
 Private messaging
 
@@ -124,7 +124,7 @@ Database integration
 
 Frontend UI enhancements
 
-🤝 Contributing
+**🤝 Contributing**
 
 Contributions are welcome!
 
