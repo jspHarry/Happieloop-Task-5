@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Real-Time Chat — WhatsApp-like UI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app" class="app">
+    <aside class="sidebar">
+      <header class="sidebar-header">
+        <div class="brand">ChatApp</div>
+        <div id="user-tag" class="user-tag"></div>
+      </header>
+      <div class="search">
+        <input id="room-search" placeholder="Search rooms or users..." />
+      </div>
+      <nav id="rooms" class="rooms"></nav>
+    </aside>
+
+    <main class="chat-area">
+      <header class="chat-header">
+        <div id="chat-title" class="chat-title">General</div>
+        <div id="chat-sub" class="chat-sub">Welcome to the room</div>
+      </header>
+
+      <section id="messages" class="messages"></section>
+
+      <footer class="composer">
+        <input id="message-input" placeholder="Type a message" autocomplete="off" />
+        <button id="send-btn">Send</button>
+      </footer>
+    </main>
+  </div>
+
+  <div id="modal-username" class="modal">
+    <div class="modal-card">
+      <h3>What's your name?</h3>
+      <input id="username" placeholder="Enter display name" />
+      <div class="modal-actions">
+        <button id="enter-btn">Enter Chat</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
